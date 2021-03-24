@@ -1,5 +1,41 @@
-$primarycolor: red;
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: $primarycolor;
+  background: url(../img/pattern.png);
+}
+
+.main {
+  margin: 100px auto;
+  background: lightgrey;
+  width: 400px;
+  height: 175px;
+  position: relative;
+  padding: 25px;
+}
+
+.badge {
+  background: lightskyblue;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: -15px;
+  left: 37%;
+}
+
+.clock {
+  background: seashell;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 20px;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 6px;
 }
